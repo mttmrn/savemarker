@@ -29,7 +29,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-      <img class="logo" src="./img/LogoMakr_2VFdNc.svg" alt="logo">
+      <img class="img-fluid" src="./img/LogoMakr_2VFdNc.svg" alt="logo">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Savemarker</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -65,37 +65,21 @@
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
           <h1 class="text-white font-weight-bold">Save yourself.</h1>
-          <hr class="divider my-4">
         </div>
         
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Store and organize any link, content, or video you want to view later. </p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-          
+          <p id="subhead" class="text-white-75 font-weight-light mb-5">Store and organize any link, content, or video you want to view later. </p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" id="atf-btn" href="#about">Find Out More</a>
+
         </div>
+        <img src="./img/Browser.png" id="browser" class="img-fluid" alt="my image">
       </div>
     </div>
   </header>
 
-  <!-- About Section -->
-  <section class="page-section bg-primary" id="about">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0">We've got what you need!</h2>
-          <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Services Section -->
   <section class="page-section" id="services">
     <div class="container">
-      <h2 class="text-center mt-0">At Your Service</h2>
-      <hr class="divider my-4">
       <div class="row">
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
@@ -129,91 +113,76 @@
     </div>
   </section>
 
-  <!-- Portfolio Section -->
-  <section id="portfolio">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
+  <section class="pricing py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Free Tier -->
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">Free</h5>
+                <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Storage</li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+                  <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited Private Projects</li>
+                  <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated Phone Support</li>
+                  <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Free Subdomain</li>
+                  <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
+                </ul>
+                <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
               </div>
             </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
+          </div>
+          <!-- Plus Tier -->
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
+                <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5 Users</strong></li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB Storage</li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Subdomain</li>
+                  <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
+                </ul>
+                <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
               </div>
             </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
+          </div>
+          <!-- Pro Tier -->
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
+                <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited Users</strong></li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage</li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited</strong> Free Subdomains</li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status Reports</li>
+                </ul>
+                <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
               </div>
             </div>
-          </a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+ 
 
   <!-- Call to Action Section -->
   <section class="page-section bg-dark text-white">
@@ -222,30 +191,35 @@
       <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
     </div>
   </section>
-
-  <!-- Contact Section -->
-  <section class="page-section" id="contact">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="mt-0">Let's Get In Touch!</h2>
-          <hr class="divider my-4">
-          <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
-        </div>
+  <div class="container contact-form">
+      <div class="contact-image">
+          <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
       </div>
-      <div class="row">
-        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+1 (202) 555-0149</div>
-        </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
-        </div>
-      </div>
-    </div>
-  </section>
+      <form method="post">
+          <h3>Drop Us a Message</h3>
+         <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                  </div>
+                  <div class="form-group">
+                      <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                  </div>
+                  <div class="form-group">
+                      <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                  </div>
+                  <div class="form-group">
+                      <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                  </div>
+              </div>
+          </div>
+      </form>
+</div>
 
   <!-- Footer -->
   <footer class="bg-light py-5">
